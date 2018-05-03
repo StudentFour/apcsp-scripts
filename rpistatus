@@ -5,7 +5,7 @@ do
 	ping -c 1 rpiSi
 	if [ S? == 0 ]
 	then
-		echo rpiSi is alive >> output
+		echo rpiSi is ALive >> output
 	else
 		echo rpiSi is dead >> output
 	fi
