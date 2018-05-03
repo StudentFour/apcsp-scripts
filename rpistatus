@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "ALIVE?" > output
+for i in {01..18}
+do
+	ping -c 1 rpiSi
+	if [ S? == 0 ]
+	then
+		echo rpiSi is alive >> output
+	else
+		echo rpiSi is dead >> output
+	fi
+done
+ 
